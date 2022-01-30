@@ -19,8 +19,8 @@ contract Election {
         createCandidate("C2");
     }
 
-    function createCandidate(string memory name) public {
-        candidates[candidateCount] = Candidate(candidateCount, name, 0);
+    function createCandidate(string memory _name) private {
+        candidates[candidateCount] = Candidate(candidateCount, _name, 0);
         candidateCount++;
     }
 }
