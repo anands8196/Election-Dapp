@@ -1,0 +1,9 @@
+ truffle unbox pet-shop
+
+ truffle migrate
+
+ truffle console
+
+        Election.deployed().then((i)=>{app = i})
+
+        app.address
