@@ -41,4 +41,4 @@
                                         }
                                 }
 
-        app.candidates(1)
+        app.candidates(1).then((c)=>{candidate = c})
