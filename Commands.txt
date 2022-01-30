@@ -7,3 +7,36 @@
         Election.deployed().then((i)=>{app = i})
 
         app.address
+
+        app.candidates(0)
+
+                        Result {
+                                        '0': BN {
+                                            negative: 0,
+                                            words: [ 0, <1 empty item> ],
+                                            length: 1,
+                                            red: null
+                                        },
+                                        '1': 'C1',
+                                        '2': BN {
+                                            negative: 0,
+                                            words: [ 0, <1 empty item> ],
+                                            length: 1,
+                                            red: null
+                                        },
+                                        id: BN {
+                                            negative: 0,
+                                            words: [ 0, <1 empty item> ],
+                                            length: 1,
+                                            red: null
+                                        },
+                                        name: 'C1',
+                                        voteCount: BN {
+                                            negative: 0,
+                                            words: [ 0, <1 empty item> ],
+                                            length: 1,
+                                            red: null
+                                        }
+                                }
+
+        app.candidates(1)
